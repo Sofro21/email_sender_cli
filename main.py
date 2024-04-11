@@ -29,7 +29,7 @@ def automatic_email_sender(email_address, message1, user_input):
 top = Tk()
 top.geometry("1000x1000")
 
-email_label = Label(top, text="Email Address:")
+email_label = Label(top, text="E-mail Address:")
 email_label.grid(row=0, column=0, padx=5, pady=5, sticky="w")
 
 email_entry = Entry(top, width=40)
